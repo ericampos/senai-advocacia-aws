@@ -1,1 +1,34 @@
-<p>meeting works!</p>
+        <!-- Formulário de contato -->
+        <div class="col-xl-6" id="agendamento">
+            <h2 class="pb-4">Nos diga quando gostaria de conversar conosco presencialmente</h2>
+            <form>
+              <div class="row g-4">
+                <div class="col-6 mb-3">
+                  <label for="firstName" class="form-label">Nome completo</label>
+                  <input type="text" id="firstName" class="form-control" formControlName="firstName">
+                </div>
+                <div class="col-6 mb-3">
+                  <label for="lastName" class="form-label">Sobrenome</label>
+                  <input type="text" id="lastName" class="form-control" formControlName="lastName">
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-control" formControlName="email">
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Telefone</label>
+                <input type="tel" id="phone" class="form-control" formControlName="phone">
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Data</label>
+                <input type="tel" id="phone" class="form-control" formControlName="phone">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Mensagem</label>
+                <textarea id="message" class="form-control" rows="4" formControlName="message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark">Enviar</button>
+            </form>
+          </div>
+  

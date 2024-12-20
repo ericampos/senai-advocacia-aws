@@ -1,0 +1,10 @@
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+h1 {
+    margin-bottom: 100px;
+}
